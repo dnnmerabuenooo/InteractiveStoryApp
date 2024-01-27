@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/two"
+    android:orientation="vertical"
+    tools:context=".Page2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="He climbed a big rock, and reached out for them. But they were out of his reach."
+        android:textSize="25dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="420dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:id="@+id/page2"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The stars were SO far away!"
+        android:textSize="25dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textSize="15dp"
+        android:textColor="#104C9B"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#F9DA5E"
+        android:onClick="goToPage3"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textSize="15dp"
+        android:textColor="#104C9B"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#F9DA5E"
+        android:onClick="goToPage1"/>
+
+</LinearLayout>

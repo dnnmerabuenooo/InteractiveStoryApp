@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/twelve"
+    android:orientation="vertical"
+    tools:context=".Page12">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="He climbed out and sat on the bank."
+        android:textSize="25dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="480dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/page12"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textSize="15dp"
+        android:textColor="#F9DA5E"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#104C9A"
+        android:onClick="goToPage13"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textSize="15dp"
+        android:textColor="#F9DA5E"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#104C9B"
+        android:onClick="goToPage11"/>
+
+</LinearLayout>

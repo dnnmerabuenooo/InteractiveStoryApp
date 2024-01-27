@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/five"
+    android:orientation="vertical"
+    tools:context=".Page5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="He started to climb the tree. He climbed with great difficulty."
+        android:textSize="25dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="480dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/page5"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textSize="15dp"
+        android:textColor="#104C9B"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#F9DA5E"
+        android:onClick="goToPage6"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textSize="15dp"
+        android:textColor="#104C9B"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#F9DA5E"
+        android:onClick="goToPage4"/>
+
+</LinearLayout>

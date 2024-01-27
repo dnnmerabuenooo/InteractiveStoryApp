@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/six"
+    android:orientation="vertical"
+    tools:context=".Page6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="He stretched his hands.. but the stars were still out of his reach."
+        android:textSize="25dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="480dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/page6"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textSize="15dp"
+        android:textColor="#104C9B"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#F9DA5E"
+        android:onClick="goToPage7"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textSize="15dp"
+        android:textColor="#104C9B"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#F9DA5E"
+        android:onClick="goToPage5"/>
+
+</LinearLayout>
